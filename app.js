@@ -22,5 +22,5 @@ app.use("/", router);
 
 const PORT = process.env.PORT || 3600;
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Servidor en ejecución en http://52.91.89.69:${PORT}`);
+  console.log(`Servidor en ejecución en http://http://127.0.0.1:${PORT}`);
 });
